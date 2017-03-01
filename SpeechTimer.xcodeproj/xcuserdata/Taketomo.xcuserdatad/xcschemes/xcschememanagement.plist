@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SpeechTimer WatchKit App (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>SpeechTimer WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SpeechTimer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6700D0FF1E6732A0000E9D33</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6700D1131E6732A0000E9D33</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6700D11E1E6732A0000E9D33</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6700D1271E6732A0000E9D33</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

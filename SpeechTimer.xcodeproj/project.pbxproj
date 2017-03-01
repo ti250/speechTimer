@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6700D1041E6732A0000E9D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6700D1031E6732A0000E9D33 /* AppDelegate.swift */; };
+		6700D1061E6732A0000E9D33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6700D1051E6732A0000E9D33 /* ViewController.swift */; };
+		6700D1091E6732A0000E9D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6700D1071E6732A0000E9D33 /* Main.storyboard */; };
+		6700D10B1E6732A0000E9D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6700D10A1E6732A0000E9D33 /* Assets.xcassets */; };
+		6700D10E1E6732A0000E9D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6700D10C1E6732A0000E9D33 /* LaunchScreen.storyboard */; };
+		6700D1191E6732A0000E9D33 /* SpeechTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6700D1181E6732A0000E9D33 /* SpeechTimerTests.swift */; };
+		6700D1241E6732A0000E9D33 /* SpeechTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6700D1231E6732A0000E9D33 /* SpeechTimerUITests.swift */; };
+		6700D1291E6732A0000E9D33 /* SpeechTimer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6700D1281E6732A0000E9D33 /* SpeechTimer WatchKit App.app */; };
+		6700D12F1E6732A0000E9D33 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6700D12D1E6732A0000E9D33 /* Interface.storyboard */; };
+		6700D1311E6732A0000E9D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6700D1301E6732A0000E9D33 /* Assets.xcassets */; };
+		6700D1381E6732A0000E9D33 /* SpeechTimer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6700D1371E6732A0000E9D33 /* SpeechTimer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6700D13F1E6732A0000E9D33 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6700D13E1E6732A0000E9D33 /* InterfaceController.swift */; };
+		6700D1411E6732A0000E9D33 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6700D1401E6732A0000E9D33 /* ExtensionDelegate.swift */; };
+		6700D1431E6732A0000E9D33 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6700D1421E6732A0000E9D33 /* NotificationController.swift */; };
+		6700D1451E6732A0000E9D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6700D1441E6732A0000E9D33 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6700D1151E6732A0000E9D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6700D0F81E6732A0000E9D33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6700D0FF1E6732A0000E9D33;
+			remoteInfo = SpeechTimer;
+		};
+		6700D1201E6732A0000E9D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6700D0F81E6732A0000E9D33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6700D0FF1E6732A0000E9D33;
+			remoteInfo = SpeechTimer;
+		};
+		6700D12A1E6732A0000E9D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6700D0F81E6732A0000E9D33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6700D1271E6732A0000E9D33;
+			remoteInfo = "SpeechTimer WatchKit App";
+		};
+		6700D1391E6732A0000E9D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6700D0F81E6732A0000E9D33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6700D1361E6732A0000E9D33;
+			remoteInfo = "SpeechTimer WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6700D14C1E6732A0000E9D33 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6700D1381E6732A0000E9D33 /* SpeechTimer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6700D1501E6732A0000E9D33 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6700D1291E6732A0000E9D33 /* SpeechTimer WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6700D1001E6732A0000E9D33 /* SpeechTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6700D1031E6732A0000E9D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6700D1051E6732A0000E9D33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6700D1081E6732A0000E9D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6700D10A1E6732A0000E9D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6700D10D1E6732A0000E9D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6700D10F1E6732A0000E9D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6700D1141E6732A0000E9D33 /* SpeechTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6700D1181E6732A0000E9D33 /* SpeechTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechTimerTests.swift; sourceTree = "<group>"; };
+		6700D11A1E6732A0000E9D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6700D11F1E6732A0000E9D33 /* SpeechTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6700D1231E6732A0000E9D33 /* SpeechTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechTimerUITests.swift; sourceTree = "<group>"; };
+		6700D1251E6732A0000E9D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6700D1281E6732A0000E9D33 /* SpeechTimer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpeechTimer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6700D12E1E6732A0000E9D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		6700D1301E6732A0000E9D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6700D1321E6732A0000E9D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6700D1371E6732A0000E9D33 /* SpeechTimer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SpeechTimer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6700D13D1E6732A0000E9D33 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		6700D13E1E6732A0000E9D33 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		6700D1401E6732A0000E9D33 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		6700D1421E6732A0000E9D33 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		6700D1441E6732A0000E9D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6700D1461E6732A0000E9D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6700D0FD1E6732A0000E9D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6700D1111E6732A0000E9D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6700D11C1E6732A0000E9D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6700D1341E6732A0000E9D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6700D0F71E6732A0000E9D33 = {
+			isa = PBXGroup;
+			children = (
+				6700D1021E6732A0000E9D33 /* SpeechTimer */,
+				6700D1171E6732A0000E9D33 /* SpeechTimerTests */,
+				6700D1221E6732A0000E9D33 /* SpeechTimerUITests */,
+				6700D12C1E6732A0000E9D33 /* SpeechTimer WatchKit App */,
+				6700D13B1E6732A0000E9D33 /* SpeechTimer WatchKit Extension */,
+				6700D1011E6732A0000E9D33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6700D1011E6732A0000E9D33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6700D1001E6732A0000E9D33 /* SpeechTimer.app */,
+				6700D1141E6732A0000E9D33 /* SpeechTimerTests.xctest */,
+				6700D11F1E6732A0000E9D33 /* SpeechTimerUITests.xctest */,
+				6700D1281E6732A0000E9D33 /* SpeechTimer WatchKit App.app */,
+				6700D1371E6732A0000E9D33 /* SpeechTimer WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6700D1021E6732A0000E9D33 /* SpeechTimer */ = {
+			isa = PBXGroup;
+			children = (
+				6700D1031E6732A0000E9D33 /* AppDelegate.swift */,
+				6700D1051E6732A0000E9D33 /* ViewController.swift */,
+				6700D1071E6732A0000E9D33 /* Main.storyboard */,
+				6700D10A1E6732A0000E9D33 /* Assets.xcassets */,
+				6700D10C1E6732A0000E9D33 /* LaunchScreen.storyboard */,
+				6700D10F1E6732A0000E9D33 /* Info.plist */,
+			);
+			path = SpeechTimer;
+			sourceTree = "<group>";
+		};
+		6700D1171E6732A0000E9D33 /* SpeechTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6700D1181E6732A0000E9D33 /* SpeechTimerTests.swift */,
+				6700D11A1E6732A0000E9D33 /* Info.plist */,
+			);
+			path = SpeechTimerTests;
+			sourceTree = "<group>";
+		};
+		6700D1221E6732A0000E9D33 /* SpeechTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6700D1231E6732A0000E9D33 /* SpeechTimerUITests.swift */,
+				6700D1251E6732A0000E9D33 /* Info.plist */,
+			);
+			path = SpeechTimerUITests;
+			sourceTree = "<group>";
+		};
+		6700D12C1E6732A0000E9D33 /* SpeechTimer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6700D12D1E6732A0000E9D33 /* Interface.storyboard */,
+				6700D1301E6732A0000E9D33 /* Assets.xcassets */,
+				6700D1321E6732A0000E9D33 /* Info.plist */,
+			);
+			path = "SpeechTimer WatchKit App";
+			sourceTree = "<group>";
+		};
+		6700D13B1E6732A0000E9D33 /* SpeechTimer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6700D13E1E6732A0000E9D33 /* InterfaceController.swift */,
+				6700D1401E6732A0000E9D33 /* ExtensionDelegate.swift */,
+				6700D1421E6732A0000E9D33 /* NotificationController.swift */,
+				6700D1441E6732A0000E9D33 /* Assets.xcassets */,
+				6700D1461E6732A0000E9D33 /* Info.plist */,
+				6700D13C1E6732A0000E9D33 /* Supporting Files */,
+			);
+			path = "SpeechTimer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		6700D13C1E6732A0000E9D33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6700D13D1E6732A0000E9D33 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6700D0FF1E6732A0000E9D33 /* SpeechTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6700D1511E6732A0000E9D33 /* Build configuration list for PBXNativeTarget "SpeechTimer" */;
+			buildPhases = (
+				6700D0FC1E6732A0000E9D33 /* Sources */,
+				6700D0FD1E6732A0000E9D33 /* Frameworks */,
+				6700D0FE1E6732A0000E9D33 /* Resources */,
+				6700D1501E6732A0000E9D33 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6700D12B1E6732A0000E9D33 /* PBXTargetDependency */,
+			);
+			name = SpeechTimer;
+			productName = SpeechTimer;
+			productReference = 6700D1001E6732A0000E9D33 /* SpeechTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6700D1131E6732A0000E9D33 /* SpeechTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6700D1541E6732A0000E9D33 /* Build configuration list for PBXNativeTarget "SpeechTimerTests" */;
+			buildPhases = (
+				6700D1101E6732A0000E9D33 /* Sources */,
+				6700D1111E6732A0000E9D33 /* Frameworks */,
+				6700D1121E6732A0000E9D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6700D1161E6732A0000E9D33 /* PBXTargetDependency */,
+			);
+			name = SpeechTimerTests;
+			productName = SpeechTimerTests;
+			productReference = 6700D1141E6732A0000E9D33 /* SpeechTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6700D11E1E6732A0000E9D33 /* SpeechTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6700D1571E6732A0000E9D33 /* Build configuration list for PBXNativeTarget "SpeechTimerUITests" */;
+			buildPhases = (
+				6700D11B1E6732A0000E9D33 /* Sources */,
+				6700D11C1E6732A0000E9D33 /* Frameworks */,
+				6700D11D1E6732A0000E9D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6700D1211E6732A0000E9D33 /* PBXTargetDependency */,
+			);
+			name = SpeechTimerUITests;
+			productName = SpeechTimerUITests;
+			productReference = 6700D11F1E6732A0000E9D33 /* SpeechTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6700D1271E6732A0000E9D33 /* SpeechTimer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6700D14D1E6732A0000E9D33 /* Build configuration list for PBXNativeTarget "SpeechTimer WatchKit App" */;
+			buildPhases = (
+				6700D1261E6732A0000E9D33 /* Resources */,
+				6700D14C1E6732A0000E9D33 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6700D13A1E6732A0000E9D33 /* PBXTargetDependency */,
+			);
+			name = "SpeechTimer WatchKit App";
+			productName = "SpeechTimer WatchKit App";
+			productReference = 6700D1281E6732A0000E9D33 /* SpeechTimer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6700D1361E6732A0000E9D33 /* SpeechTimer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6700D1491E6732A0000E9D33 /* Build configuration list for PBXNativeTarget "SpeechTimer WatchKit Extension" */;
+			buildPhases = (
+				6700D1331E6732A0000E9D33 /* Sources */,
+				6700D1341E6732A0000E9D33 /* Frameworks */,
+				6700D1351E6732A0000E9D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpeechTimer WatchKit Extension";
+			productName = "SpeechTimer WatchKit Extension";
+			productReference = 6700D1371E6732A0000E9D33 /* SpeechTimer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6700D0F81E6732A0000E9D33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Taketomo Isazawa";
+				TargetAttributes = {
+					6700D0FF1E6732A0000E9D33 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6700D1131E6732A0000E9D33 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6700D0FF1E6732A0000E9D33;
+					};
+					6700D11E1E6732A0000E9D33 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6700D0FF1E6732A0000E9D33;
+					};
+					6700D1271E6732A0000E9D33 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6700D1361E6732A0000E9D33 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6700D0FB1E6732A0000E9D33 /* Build configuration list for PBXProject "SpeechTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6700D0F71E6732A0000E9D33;
+			productRefGroup = 6700D1011E6732A0000E9D33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6700D0FF1E6732A0000E9D33 /* SpeechTimer */,
+				6700D1131E6732A0000E9D33 /* SpeechTimerTests */,
+				6700D11E1E6732A0000E9D33 /* SpeechTimerUITests */,
+				6700D1271E6732A0000E9D33 /* SpeechTimer WatchKit App */,
+				6700D1361E6732A0000E9D33 /* SpeechTimer WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6700D0FE1E6732A0000E9D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6700D10E1E6732A0000E9D33 /* LaunchScreen.storyboard in Resources */,
+				6700D10B1E6732A0000E9D33 /* Assets.xcassets in Resources */,
+				6700D1091E6732A0000E9D33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6700D1121E6732A0000E9D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6700D11D1E6732A0000E9D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6700D1261E6732A0000E9D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6700D1311E6732A0000E9D33 /* Assets.xcassets in Resources */,
+				6700D12F1E6732A0000E9D33 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6700D1351E6732A0000E9D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6700D1451E6732A0000E9D33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6700D0FC1E6732A0000E9D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6700D1061E6732A0000E9D33 /* ViewController.swift in Sources */,
+				6700D1041E6732A0000E9D33 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6700D1101E6732A0000E9D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6700D1191E6732A0000E9D33 /* SpeechTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6700D11B1E6732A0000E9D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6700D1241E6732A0000E9D33 /* SpeechTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6700D1331E6732A0000E9D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6700D1431E6732A0000E9D33 /* NotificationController.swift in Sources */,
+				6700D1411E6732A0000E9D33 /* ExtensionDelegate.swift in Sources */,
+				6700D13F1E6732A0000E9D33 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6700D1161E6732A0000E9D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6700D0FF1E6732A0000E9D33 /* SpeechTimer */;
+			targetProxy = 6700D1151E6732A0000E9D33 /* PBXContainerItemProxy */;
+		};
+		6700D1211E6732A0000E9D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6700D0FF1E6732A0000E9D33 /* SpeechTimer */;
+			targetProxy = 6700D1201E6732A0000E9D33 /* PBXContainerItemProxy */;
+		};
+		6700D12B1E6732A0000E9D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6700D1271E6732A0000E9D33 /* SpeechTimer WatchKit App */;
+			targetProxy = 6700D12A1E6732A0000E9D33 /* PBXContainerItemProxy */;
+		};
+		6700D13A1E6732A0000E9D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6700D1361E6732A0000E9D33 /* SpeechTimer WatchKit Extension */;
+			targetProxy = 6700D1391E6732A0000E9D33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6700D1071E6732A0000E9D33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6700D1081E6732A0000E9D33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6700D10C1E6732A0000E9D33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6700D10D1E6732A0000E9D33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6700D12D1E6732A0000E9D33 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6700D12E1E6732A0000E9D33 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6700D1471E6732A0000E9D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6700D1481E6732A0000E9D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6700D14A1E6732A0000E9D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "SpeechTimer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		6700D14B1E6732A0000E9D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "SpeechTimer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		6700D14E1E6732A0000E9D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SpeechTimer_WatchKit_Extension;
+				INFOPLIST_FILE = "SpeechTimer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		6700D14F1E6732A0000E9D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SpeechTimer_WatchKit_Extension;
+				INFOPLIST_FILE = "SpeechTimer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		6700D1521E6732A0000E9D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpeechTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6700D1531E6732A0000E9D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpeechTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6700D1551E6732A0000E9D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpeechTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechTimer.app/SpeechTimer";
+			};
+			name = Debug;
+		};
+		6700D1561E6732A0000E9D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpeechTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechTimer.app/SpeechTimer";
+			};
+			name = Release;
+		};
+		6700D1581E6732A0000E9D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SpeechTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SpeechTimer;
+			};
+			name = Debug;
+		};
+		6700D1591E6732A0000E9D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SpeechTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SpeechTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6700D0FB1E6732A0000E9D33 /* Build configuration list for PBXProject "SpeechTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6700D1471E6732A0000E9D33 /* Debug */,
+				6700D1481E6732A0000E9D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6700D1491E6732A0000E9D33 /* Build configuration list for PBXNativeTarget "SpeechTimer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6700D14A1E6732A0000E9D33 /* Debug */,
+				6700D14B1E6732A0000E9D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6700D14D1E6732A0000E9D33 /* Build configuration list for PBXNativeTarget "SpeechTimer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6700D14E1E6732A0000E9D33 /* Debug */,
+				6700D14F1E6732A0000E9D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6700D1511E6732A0000E9D33 /* Build configuration list for PBXNativeTarget "SpeechTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6700D1521E6732A0000E9D33 /* Debug */,
+				6700D1531E6732A0000E9D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6700D1541E6732A0000E9D33 /* Build configuration list for PBXNativeTarget "SpeechTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6700D1551E6732A0000E9D33 /* Debug */,
+				6700D1561E6732A0000E9D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6700D1571E6732A0000E9D33 /* Build configuration list for PBXNativeTarget "SpeechTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6700D1581E6732A0000E9D33 /* Debug */,
+				6700D1591E6732A0000E9D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6700D0F81E6732A0000E9D33 /* Project object */;
+}
