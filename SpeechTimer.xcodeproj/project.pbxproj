@@ -22,6 +22,8 @@
 		6700D1411E6732A0000E9D33 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6700D1401E6732A0000E9D33 /* ExtensionDelegate.swift */; };
 		6700D1431E6732A0000E9D33 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6700D1421E6732A0000E9D33 /* NotificationController.swift */; };
 		6700D1451E6732A0000E9D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6700D1441E6732A0000E9D33 /* Assets.xcassets */; };
+		6700D15B1E6736BE000E9D33 /* RowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6700D15A1E6736BE000E9D33 /* RowController.swift */; };
+		6700D15D1E6738D3000E9D33 /* TimerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6700D15C1E6738D3000E9D33 /* TimerInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,8 @@
 		6700D1421E6732A0000E9D33 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		6700D1441E6732A0000E9D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6700D1461E6732A0000E9D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6700D15A1E6736BE000E9D33 /* RowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowController.swift; sourceTree = "<group>"; };
+		6700D15C1E6738D3000E9D33 /* TimerInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,7 +212,9 @@
 			isa = PBXGroup;
 			children = (
 				6700D13E1E6732A0000E9D33 /* InterfaceController.swift */,
+				6700D15A1E6736BE000E9D33 /* RowController.swift */,
 				6700D1401E6732A0000E9D33 /* ExtensionDelegate.swift */,
+				6700D15C1E6738D3000E9D33 /* TimerInterfaceController.swift */,
 				6700D1421E6732A0000E9D33 /* NotificationController.swift */,
 				6700D1441E6732A0000E9D33 /* Assets.xcassets */,
 				6700D1461E6732A0000E9D33 /* Info.plist */,
@@ -329,6 +335,7 @@
 				TargetAttributes = {
 					6700D0FF1E6732A0000E9D33 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KZDMSZY72Y;
 						ProvisioningStyle = Automatic;
 					};
 					6700D1131E6732A0000E9D33 = {
@@ -338,15 +345,18 @@
 					};
 					6700D11E1E6732A0000E9D33 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KZDMSZY72Y;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 6700D0FF1E6732A0000E9D33;
 					};
 					6700D1271E6732A0000E9D33 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KZDMSZY72Y;
 						ProvisioningStyle = Automatic;
 					};
 					6700D1361E6732A0000E9D33 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KZDMSZY72Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -449,6 +459,8 @@
 			files = (
 				6700D1431E6732A0000E9D33 /* NotificationController.swift in Sources */,
 				6700D1411E6732A0000E9D33 /* ExtensionDelegate.swift in Sources */,
+				6700D15B1E6736BE000E9D33 /* RowController.swift in Sources */,
+				6700D15D1E6738D3000E9D33 /* TimerInterfaceController.swift in Sources */,
 				6700D13F1E6732A0000E9D33 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -603,6 +615,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = KZDMSZY72Y;
 				INFOPLIST_FILE = "SpeechTimer WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimer.watchkitapp.watchkitextension;
@@ -619,6 +632,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = KZDMSZY72Y;
 				INFOPLIST_FILE = "SpeechTimer WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimer.watchkitapp.watchkitextension;
@@ -636,6 +650,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KZDMSZY72Y;
 				IBSC_MODULE = SpeechTimer_WatchKit_Extension;
 				INFOPLIST_FILE = "SpeechTimer WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimer.watchkitapp;
@@ -653,6 +668,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KZDMSZY72Y;
 				IBSC_MODULE = SpeechTimer_WatchKit_Extension;
 				INFOPLIST_FILE = "SpeechTimer WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimer.watchkitapp;
@@ -669,6 +685,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KZDMSZY72Y;
 				INFOPLIST_FILE = SpeechTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimer;
@@ -681,6 +698,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KZDMSZY72Y;
 				INFOPLIST_FILE = SpeechTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimer;
@@ -721,6 +739,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KZDMSZY72Y;
 				INFOPLIST_FILE = SpeechTimerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimerUITests;
@@ -734,6 +753,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KZDMSZY72Y;
 				INFOPLIST_FILE = SpeechTimerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = titaniumapps.SpeechTimerUITests;
@@ -762,6 +782,7 @@
 				6700D14B1E6732A0000E9D33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6700D14D1E6732A0000E9D33 /* Build configuration list for PBXNativeTarget "SpeechTimer WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -770,6 +791,7 @@
 				6700D14F1E6732A0000E9D33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6700D1511E6732A0000E9D33 /* Build configuration list for PBXNativeTarget "SpeechTimer" */ = {
 			isa = XCConfigurationList;
@@ -778,6 +800,7 @@
 				6700D1531E6732A0000E9D33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6700D1541E6732A0000E9D33 /* Build configuration list for PBXNativeTarget "SpeechTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -786,6 +809,7 @@
 				6700D1561E6732A0000E9D33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6700D1571E6732A0000E9D33 /* Build configuration list for PBXNativeTarget "SpeechTimerUITests" */ = {
 			isa = XCConfigurationList;
@@ -794,6 +818,7 @@
 				6700D1591E6732A0000E9D33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
